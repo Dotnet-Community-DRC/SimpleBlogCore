@@ -15,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\DotNetClub-DRC\\SimpleBlogCore\\SimpleBlogCore.Models\\SimpleBlogCore.Models.csproj",
-      "projectName": "SimpleBlogCore.Models",
-      "projectPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\DotNetClub-DRC\\SimpleBlogCore\\SimpleBlogCore.Models\\SimpleBlogCore.Models.csproj",
+      "projectUniqueName": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\DotNetClub-DRC\\SimpleBlogCore\\SimpleBlogCore.Models\\SimpleBlogCore.Service.csproj",
+      "projectName": "SimpleBlogCore.Service",
+      "projectPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\DotNetClub-DRC\\SimpleBlogCore\\SimpleBlogCore.Models\\SimpleBlogCore.Service.csproj",
       "packagesPath": "C:\\Users\\sudis\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\DotNetClub-DRC\\SimpleBlogCore\\SimpleBlogCore.Models\\obj\\",
       "projectStyle": "PackageReference",

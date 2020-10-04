@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5rKL4fBLCBQlcLAImimAn8NM+8/yutbX+O1a8oFsuz3le6f8v4dySnY4uJLojqh7OGTYinTssX8kD9c6/K8P6Q==",
+  "dgSpecHash": "Opos4w7wczoMrQ/Dw9J4McStq5IP7Joj9omJ7WR/lPFych4Q2KjBHSq4J41jGoL0zkyA58LsnUUje27BYAslIQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\DotNetClub-DRC\\SimpleBlogCore\\SimpleBlogCore.Models\\SimpleBlogCore.Models.csproj",
+  "projectFilePath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\DotNetClub-DRC\\SimpleBlogCore\\SimpleBlogCore.Models\\SimpleBlogCore.Service.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

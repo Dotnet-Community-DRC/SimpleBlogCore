@@ -1727,6 +1727,22 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "SimpleBlogCore.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.8",
+          "Microsoft.EntityFrameworkCore": "3.1.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.8",
+          "Microsoft.Extensions.Identity.Stores": "3.1.8"
+        },
+        "compile": {
+          "bin/placeholder/SimpleBlogCore.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SimpleBlogCore.Data.dll": {}
+        }
       }
     }
   },
@@ -6127,6 +6143,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "SimpleBlogCore.Data/1.0.0": {
+      "type": "project",
+      "path": "../SimpleBlogCore.Data/SimpleBlogCore.Data.csproj",
+      "msbuildProject": "../SimpleBlogCore.Data/SimpleBlogCore.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6136,7 +6157,8 @@
       "Microsoft.AspNetCore.Identity.UI >= 3.1.8",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 3.1.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.8",
-      "Microsoft.EntityFrameworkCore.Tools >= 3.1.8"
+      "Microsoft.EntityFrameworkCore.Tools >= 3.1.8",
+      "SimpleBlogCore.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6171,7 +6193,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\sudis\\Documents\\Sudi\\Project\\DotNetClub-DRC\\SimpleBlogCore\\SimpleBlogCore.Data\\SimpleBlogCore.Data.csproj": {
+              "projectPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\DotNetClub-DRC\\SimpleBlogCore\\SimpleBlogCore.Data\\SimpleBlogCore.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

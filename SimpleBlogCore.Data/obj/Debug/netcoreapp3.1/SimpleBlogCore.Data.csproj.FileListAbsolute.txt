@@ -6,3 +6,7 @@ C:\Users\sudis\Documents\Sudi\Project\DotNetClub-DRC\SimpleBlogCore\SimpleBlogCo
 C:\Users\sudis\Documents\Sudi\Project\DotNetClub-DRC\SimpleBlogCore\SimpleBlogCore.Data\bin\Debug\netcoreapp3.1\SimpleBlogCore.Data.runtimeconfig.json
 C:\Users\sudis\Documents\Sudi\Project\DotNetClub-DRC\SimpleBlogCore\SimpleBlogCore.Data\bin\Debug\netcoreapp3.1\SimpleBlogCore.Data.runtimeconfig.dev.json
 C:\Users\sudis\Documents\Sudi\Project\DotNetClub-DRC\SimpleBlogCore\SimpleBlogCore.Data\obj\Debug\netcoreapp3.1\SimpleBlogCore.Data.genruntimeconfig.cache
+C:\Users\sudis\Documents\Sudi\Project\DotNetClub-DRC\SimpleBlogCore\SimpleBlogCore.Data\bin\Debug\netcoreapp3.1\SimpleBlogCore.Data.pdb
+C:\Users\sudis\Documents\Sudi\Project\DotNetClub-DRC\SimpleBlogCore\SimpleBlogCore.Data\obj\Debug\netcoreapp3.1\SimpleBlogCore.Data.csproj.CoreCompileInputs.cache
+C:\Users\sudis\Documents\Sudi\Project\DotNetClub-DRC\SimpleBlogCore\SimpleBlogCore.Data\obj\Debug\netcoreapp3.1\SimpleBlogCore.Data.dll
+C:\Users\sudis\Documents\Sudi\Project\DotNetClub-DRC\SimpleBlogCore\SimpleBlogCore.Data\obj\Debug\netcoreapp3.1\SimpleBlogCore.Data.pdb

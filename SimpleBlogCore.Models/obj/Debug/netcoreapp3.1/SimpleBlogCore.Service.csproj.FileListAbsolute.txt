@@ -1,0 +1,9 @@
+C:\Users\sudis\Documents\Sudi\Project\DotNetClub-DRC\SimpleBlogCore\SimpleBlogCore.Models\bin\Debug\netcoreapp3.1\SimpleBlogCore.Service.deps.json
+C:\Users\sudis\Documents\Sudi\Project\DotNetClub-DRC\SimpleBlogCore\SimpleBlogCore.Models\bin\Debug\netcoreapp3.1\SimpleBlogCore.Service.dll
+C:\Users\sudis\Documents\Sudi\Project\DotNetClub-DRC\SimpleBlogCore\SimpleBlogCore.Models\bin\Debug\netcoreapp3.1\SimpleBlogCore.Service.pdb
+C:\Users\sudis\Documents\Sudi\Project\DotNetClub-DRC\SimpleBlogCore\SimpleBlogCore.Models\obj\Debug\netcoreapp3.1\SimpleBlogCore.Service.csprojAssemblyReference.cache
+C:\Users\sudis\Documents\Sudi\Project\DotNetClub-DRC\SimpleBlogCore\SimpleBlogCore.Models\obj\Debug\netcoreapp3.1\SimpleBlogCore.Service.AssemblyInfoInputs.cache
+C:\Users\sudis\Documents\Sudi\Project\DotNetClub-DRC\SimpleBlogCore\SimpleBlogCore.Models\obj\Debug\netcoreapp3.1\SimpleBlogCore.Service.AssemblyInfo.cs
+C:\Users\sudis\Documents\Sudi\Project\DotNetClub-DRC\SimpleBlogCore\SimpleBlogCore.Models\obj\Debug\netcoreapp3.1\SimpleBlogCore.Service.csproj.CoreCompileInputs.cache
+C:\Users\sudis\Documents\Sudi\Project\DotNetClub-DRC\SimpleBlogCore\SimpleBlogCore.Models\obj\Debug\netcoreapp3.1\SimpleBlogCore.Service.dll
+C:\Users\sudis\Documents\Sudi\Project\DotNetClub-DRC\SimpleBlogCore\SimpleBlogCore.Models\obj\Debug\netcoreapp3.1\SimpleBlogCore.Service.pdb
