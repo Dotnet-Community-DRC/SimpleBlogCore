@@ -28,9 +28,11 @@ namespace SimpleBlogCore.Web.Configurations
 
             applicationBuilder.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllers();
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapFallbackToPage("/_Host");
                 endpoints.MapRazorPages();
             });
         }

@@ -14,5 +14,7 @@ namespace SimpleBlogCore.Data
         public DbSet<Comment> Comments { get; set; }
         public DbSet<Post> Posts { get; set; }
         public DbSet<EmailModel> EmailModels { get; set; }
+        public DbSet<ContactModel> Contact { get; set; }
+        public DbSet<SettingsModel> Settings { get; set; }
     }
 }

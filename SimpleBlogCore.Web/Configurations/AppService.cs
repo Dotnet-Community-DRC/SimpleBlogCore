@@ -5,6 +5,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
 using SimpleBlogCore.Data;
 using SimpleBlogCore.Data.Models;
+using SimpleBlogCore.Service.Interfaces;
+using SimpleBlogCore.Web.Helpers;
 
 namespace SimpleBlogCore.Web.Configurations
 {
@@ -19,7 +21,11 @@ namespace SimpleBlogCore.Web.Configurations
                 .AddEntityFrameworkStores<AppDbContext>();
             serviceCollection.AddControllersWithViews().AddRazorRuntimeCompilation();
             serviceCollection.AddSingleton<IFileProvider>(new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot")));
+            serviceCollection.AddTransient<IManageSettings, ManageSettings>();
+            serviceCollection.AddTransient<IManageContact, ManageContact>();
+            serviceCollection.AddScoped<IDataEncryptionHelper, DataEncryptionHelper>();
 
+            serviceCollection.AddControllersWithViews();
             serviceCollection.AddRazorPages();
         }
 

@@ -7,3 +7,6 @@ C:\Users\sudis\Documents\Sudi\Project\DotNetClub-DRC\SimpleBlogCore\SimpleBlogCo
 C:\Users\sudis\Documents\Sudi\Project\DotNetClub-DRC\SimpleBlogCore\SimpleBlogCore.Models\obj\Debug\netcoreapp3.1\SimpleBlogCore.Service.csproj.CoreCompileInputs.cache
 C:\Users\sudis\Documents\Sudi\Project\DotNetClub-DRC\SimpleBlogCore\SimpleBlogCore.Models\obj\Debug\netcoreapp3.1\SimpleBlogCore.Service.dll
 C:\Users\sudis\Documents\Sudi\Project\DotNetClub-DRC\SimpleBlogCore\SimpleBlogCore.Models\obj\Debug\netcoreapp3.1\SimpleBlogCore.Service.pdb
+C:\Users\sudis\Documents\Sudi\Project\DotNetClub-DRC\SimpleBlogCore\SimpleBlogCore.Models\bin\Debug\netcoreapp3.1\SimpleBlogCore.Data.dll
+C:\Users\sudis\Documents\Sudi\Project\DotNetClub-DRC\SimpleBlogCore\SimpleBlogCore.Models\bin\Debug\netcoreapp3.1\SimpleBlogCore.Data.pdb
+C:\Users\sudis\Documents\Sudi\Project\DotNetClub-DRC\SimpleBlogCore\SimpleBlogCore.Models\obj\Debug\netcoreapp3.1\SimpleBlogCore.Service.csproj.CopyComplete

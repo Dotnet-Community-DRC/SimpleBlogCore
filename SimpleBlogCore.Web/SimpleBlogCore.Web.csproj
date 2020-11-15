@@ -18,6 +18,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SimpleBlogCore.Data\SimpleBlogCore.Data.csproj" />
+    <ProjectReference Include="..\SimpleBlogCore.Models\SimpleBlogCore.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Components\" />
   </ItemGroup>
 
 </Project>

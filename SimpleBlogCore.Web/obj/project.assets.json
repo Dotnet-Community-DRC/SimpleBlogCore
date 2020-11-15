@@ -1265,6 +1265,28 @@
           }
         }
       },
+      "SendGrid/9.21.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1",
+          "starkbank-ecdsa": "[1.2.0, 2.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/SendGrid.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SendGrid.dll": {}
+        }
+      },
+      "starkbank-ecdsa/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/StarkbankEcdsa.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/StarkbankEcdsa.dll": {}
+        }
+      },
       "System.AppContext/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2779,6 +2801,20 @@
         },
         "runtime": {
           "bin/placeholder/SimpleBlogCore.Data.dll": {}
+        }
+      },
+      "SimpleBlogCore.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "SendGrid": "9.21.1",
+          "SimpleBlogCore.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SimpleBlogCore.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SimpleBlogCore.Service.dll": {}
         }
       }
     }
@@ -4778,6 +4814,45 @@
         "runtimes/win-x86/native/sni.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "SendGrid/9.21.1": {
+      "sha512": "rgYxO7xjHomL/MHqmqIl2rE/TSQLSdFaj+9UO0PqnypqdOQVwXV5LgYNuX+i9P+gH3UgIVbAIXfQAtCcclIdxw==",
+      "type": "package",
+      "path": "sendgrid/9.21.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SendGrid.dll",
+        "lib/net40/SendGrid.pdb",
+        "lib/net40/SendGrid.xml",
+        "lib/net452/SendGrid.dll",
+        "lib/net452/SendGrid.pdb",
+        "lib/net452/SendGrid.xml",
+        "lib/netstandard1.3/SendGrid.dll",
+        "lib/netstandard1.3/SendGrid.pdb",
+        "lib/netstandard1.3/SendGrid.xml",
+        "lib/netstandard2.0/SendGrid.dll",
+        "lib/netstandard2.0/SendGrid.pdb",
+        "lib/netstandard2.0/SendGrid.xml",
+        "sendgrid.9.21.1.nupkg.sha512",
+        "sendgrid.nuspec"
+      ]
+    },
+    "starkbank-ecdsa/1.2.0": {
+      "sha512": "hP53QPYOOEIR44EK9phz+DYliM6DEieDZxpb8GZzE+++qyrWqUscKcyHCC6L9yu/ehllYtqxtT4qrjWDsuQlUQ==",
+      "type": "package",
+      "path": "starkbank-ecdsa/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/StarkbankEcdsa.dll",
+        "lib/net452/StarkbankEcdsa.dll",
+        "lib/netstandard1.3/StarkbankEcdsa.dll",
+        "lib/netstandard2.0/StarkbankEcdsa.dll",
+        "lib/netstandard2.1/StarkbankEcdsa.dll",
+        "starkbank-ecdsa.1.2.0.nupkg.sha512",
+        "starkbank-ecdsa.nuspec"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -8962,6 +9037,11 @@
       "type": "project",
       "path": "../SimpleBlogCore.Data/SimpleBlogCore.Data.csproj",
       "msbuildProject": "../SimpleBlogCore.Data/SimpleBlogCore.Data.csproj"
+    },
+    "SimpleBlogCore.Service/1.0.0": {
+      "type": "project",
+      "path": "../SimpleBlogCore.Models/SimpleBlogCore.Service.csproj",
+      "msbuildProject": "../SimpleBlogCore.Models/SimpleBlogCore.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8973,7 +9053,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.8",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.8",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.4",
-      "SimpleBlogCore.Data >= 1.0.0"
+      "SimpleBlogCore.Data >= 1.0.0",
+      "SimpleBlogCore.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -9004,13 +9085,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\sudis\\Documents\\Sudi\\Nugets\\BlazorHRM": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
             "C:\\Users\\sudis\\Documents\\Sudi\\Project\\DotNetClub-DRC\\SimpleBlogCore\\SimpleBlogCore.Data\\SimpleBlogCore.Data.csproj": {
               "projectPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\DotNetClub-DRC\\SimpleBlogCore\\SimpleBlogCore.Data\\SimpleBlogCore.Data.csproj"
+            },
+            "C:\\Users\\sudis\\Documents\\Sudi\\Project\\DotNetClub-DRC\\SimpleBlogCore\\SimpleBlogCore.Models\\SimpleBlogCore.Service.csproj": {
+              "projectPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\DotNetClub-DRC\\SimpleBlogCore\\SimpleBlogCore.Models\\SimpleBlogCore.Service.csproj"
             }
           }
         }
@@ -9023,6 +9109,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
@@ -9071,7 +9158,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
